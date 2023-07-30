@@ -72,7 +72,10 @@ const MultiStepForm: React.FC<Props> = ({ isOpen, onClose, data }: Props) => {
           <>
             <div className="grid grid-cols-2 gap-8 pb-[24px]">
               <div>
-                <Label className="text-dark font-sans font-medium text-xl">Create a job</Label>
+                <Label className="text-dark font-sans font-medium text-xl">
+                  {' '}
+                  {data?.isEdit ? 'Update the job' : 'Create a job'}
+                </Label>
               </div>
               <div className="place-self-end text-dark font-sans font-normal text-lg">
                 <Label>Step 1</Label>
@@ -187,7 +190,10 @@ const MultiStepForm: React.FC<Props> = ({ isOpen, onClose, data }: Props) => {
           <>
             <div className="grid grid-cols-2 gap-8 pb-[24px]">
               <div>
-                <Label className="text-dark font-sans font-medium text-xl">Create a job</Label>
+                <Label className="text-dark font-sans font-medium text-xl">
+                  {' '}
+                  {data?.isEdit ? 'Update the job' : 'Create a job'}
+                </Label>
               </div>
               <div className="place-self-end text-dark font-sans font-normal text-lg">
                 <Label>Step 2</Label>
