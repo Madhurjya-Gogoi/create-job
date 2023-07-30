@@ -89,11 +89,11 @@ const MultiStepForm: React.FC<Props> = ({ isOpen, onClose, data }: Props) => {
                     required: 'This field is required',
                     minLength: {
                       value: 5,
-                      message: 'Name must be at least 5 characters',
+                      message: 'Job title must be at least 5 characters',
                     },
                     maxLength: {
                       value: 30,
-                      message: 'Name cannot exceed 30 characters',
+                      message: 'Job title cannot exceed 30 characters',
                     },
                   })}
                 />
@@ -112,11 +112,11 @@ const MultiStepForm: React.FC<Props> = ({ isOpen, onClose, data }: Props) => {
                     required: 'This field is required',
                     minLength: {
                       value: 5,
-                      message: 'Name must be at least 5 characters',
+                      message: ' Company name must be at least 5 characters',
                     },
                     maxLength: {
                       value: 30,
-                      message: 'Name cannot exceed 30 characters',
+                      message: 'Company name cannot exceed 30 characters',
                     },
                   })}
                 />
@@ -135,11 +135,11 @@ const MultiStepForm: React.FC<Props> = ({ isOpen, onClose, data }: Props) => {
                     required: 'This field is required',
                     minLength: {
                       value: 5,
-                      message: 'Name must be at least 5 characters',
+                      message: 'Industry type must be at least 5 characters',
                     },
                     maxLength: {
                       value: 30,
-                      message: 'Name cannot exceed 30 characters',
+                      message: 'Industry type cannot exceed 30 characters',
                     },
                   })}
                 />
